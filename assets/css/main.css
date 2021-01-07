@@ -2023,7 +2023,7 @@ input, select, textarea {
 
 			background-position: top ;
 
-			background-size: cover;
+			background-size: fill;
 
 			background-repeat: no-repeat;
 

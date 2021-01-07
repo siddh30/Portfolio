@@ -1,0 +1,5 @@
+cd Desktop
+cd Portfolio
+git add .
+git commit -m "Update"
+git push
