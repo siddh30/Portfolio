@@ -387,12 +387,9 @@ input, select, textarea {
 
 		margin: 0 0 1rem 0;
 
-		text-transform: uppercase;
-
 		letter-spacing: 0.2rem;
 
 	}
-
 
 
 
@@ -419,7 +416,7 @@ input, select, textarea {
 
 			width: max-content;
 
-			padding-bottom: 0.5rem;
+			padding-bottom: 0.1rem;
 
 			margin: 0 0 2rem 0;
 
@@ -431,6 +428,8 @@ input, select, textarea {
 	h1 {
 
 		font-size: 2.25rem;
+
+		text-transform: uppercase;
 
 		line-height: 1.3;
 
@@ -447,7 +446,9 @@ input, select, textarea {
 
 		line-height: 1.4;
 
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.1rem;
+
+		text-transform: capitalize;
 
 	}
 
@@ -457,6 +458,10 @@ input, select, textarea {
 	h3 {
 
 		font-size: 1rem;
+		text-transform: capitalize;
+		text-emphasis:  underline;
+		letter-spacing: 0.1rem;
+
 
 	}
 
@@ -465,7 +470,9 @@ input, select, textarea {
 
 	h4 {
 
-		font-size: 0.8rem;
+		font-size: 0.9rem;
+		text-transform: capitalize;
+		
 
 	}
 
@@ -2398,7 +2405,7 @@ input, select, textarea {
 
 			#header .content p {
 
-				text-transform: uppercase;
+				text-transform: capitalize;
 
 				letter-spacing: 0.2rem;
 
@@ -2468,7 +2475,7 @@ input, select, textarea {
 
 					padding: 0.125rem 0 1.45rem;
 
-					text-transform: uppercase;
+					text-transform: capitalize;
 
 					letter-spacing: 0.2rem;
 
@@ -3428,4 +3435,42 @@ input, select, textarea {
 			}
 
 
+			.unique {
 
+				letter-spacing: 0.2rem;
+
+				border-bottom: solid 1px #04abc9;
+
+				width: -moz-max-content;
+
+				width: -webkit-max-content;
+
+				width: -ms-max-content;
+
+				width: max-content;
+
+				padding-bottom: 0.1rem;
+
+				margin: 0 0 1.5rem 0;
+			}
+				
+			
+
+			.unique1 {
+
+				letter-spacing: 0.2rem;
+
+				border-bottom: solid 1px #04abc9;
+
+				width: -moz-max-content;
+
+				width: -webkit-max-content;
+
+				width: -ms-max-content;
+
+				width: max-content;
+
+				padding-bottom: 0.1rem;
+
+				margin: 0 0 1rem 0;
+			}
